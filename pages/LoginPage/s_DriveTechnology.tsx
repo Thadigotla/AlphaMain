@@ -5,7 +5,7 @@ import { Footer } from "./Footer";
  const SDriveTechnology = () => {
   return (
     <>
-         <Navbar />
+         {/* <Navbar /> */}
 
     <div className="wrapper">
       <section className="Header">

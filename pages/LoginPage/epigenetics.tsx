@@ -1,11 +1,11 @@
 import React from "react";
-import { Navbar } from "./Navbar";
+// import { Navbar } from "./Navbar";
 import { Footer } from "./Footer";
 
  const Epigenetics = () => {
   return (
     <>
-    <Navbar/>
+    {/* <Navbar/> */}
     <div className="wrapper">
       <section className="Header">
         <h1 className="Header_one">Epigenetics</h1>

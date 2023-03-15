@@ -1,8 +1,7 @@
 import { Col, Form, Image, Row, Spin, Input, Card } from "@pankod/refine-antd";
 import { useLogin, useNavigation } from "@pankod/refine-core";
 import React, { useState } from "react";
-import { Navbar } from "./Navbar";
-import { Button, Collapse, Select } from "antd";
+ import { Button, Collapse, Select } from "antd";
 import { NhostClient } from "@nhost/nhost-js";
 import { Divider, notification, Space } from "antd";
 import { nhost } from "pages/_app";
@@ -65,7 +64,7 @@ export const SignIn: React.FC = (props: any) => {
 
   return (
     <div id="login-page">
-      <Navbar />
+      {/* <Navbar /> */}
 
       <Card>
         <div className="login-outerBox">

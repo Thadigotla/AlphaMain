@@ -2,8 +2,7 @@ import { useNavigation } from "@pankod/refine-core";
 import { Button, Col, Row } from "antd";
 import React, { useState } from "react";
 // import { Cart } from "./Cart";
-import { Navbar } from "./Navbar";
-import { nhost } from "pages/_app";
+ import { nhost } from "pages/_app";
 
 export interface INavbar {
   //   username: string;
@@ -56,7 +55,7 @@ export const TermsConditions: React.FC = (props: any) => {
 
   return (
     <>
-      <Navbar></Navbar>
+      {/* <Navbar></Navbar> */}
       <section id="faq" className="section wf-section">
         <div className="container">
           <div className="faq-body">
